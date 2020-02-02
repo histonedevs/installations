@@ -5,7 +5,7 @@ echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sud
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get install google-chrome-stable mysql-server php7.3 php7.3-gd php7.3-mbstring mysql-client curl php7.3-cli git php7.3-mysql make gcc php7.3-curl language-pack-de language-pack-fr language-pack-es language-pack-it php7.3-intl php7.3-zip php7.3-dom php7.3-xml composer apache2 libapache2-mod-php7.3 supervisor redis-server beanstalkd zip libappindicator1 libindicator7 unity-tweak-tool zsh -y
+sudo apt-get install google-chrome-stable mysql-server php php-gd php-mbstring mysql-client curl php-cli git php-mysql make gcc php-curl language-pack-de language-pack-fr language-pack-es language-pack-it php-intl php-zip php-dom php-xml composer apache2 libapache2-mod-php supervisor redis-server beanstalkd zip libappindicator1 libindicator7 unity-tweak-tool zsh -y
 
 sudo a2enmod rewrite
 sudo a2enmod php7.3
